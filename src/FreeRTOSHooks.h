@@ -1,10 +1,3 @@
-/*
- * FreeRTOSHooks.h
- *
- *  Created on: Mar 23, 2019
- *      Author: amcote
- */
-
 #ifndef FREERTOSHOOKS_H_
 #define FREERTOSHOOKS_H_
 

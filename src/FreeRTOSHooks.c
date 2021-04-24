@@ -1,11 +1,3 @@
-/*
- * FreeRTOSHooks.c
- *
- *  Created on: Mar 23, 2019
- *      Author: amcote
- */
-
-
 #include "FreeRTOSHooks.h"
 
 /*--------------------------- Application Hooks From Template File --------------------------------*/
