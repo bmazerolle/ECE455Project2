@@ -85,7 +85,7 @@ int main(void) {
     xTaskCreate( PeriodicTaskCreator1 , "PeriodicCreator1"  , configMINIMAL_STACK_SIZE , NULL , GENERATOR_DD_PRIORITY , &PeriodicTaskCreatorHandle1);
     xTaskCreate( PeriodicTaskCreator2 , "PeriodicCreator2"  , configMINIMAL_STACK_SIZE , NULL , GENERATOR_DD_PRIORITY , &PeriodicTaskCreatorHandle2);
     xTaskCreate( PeriodicTaskCreator3 , "PeriodicCreator3"  , configMINIMAL_STACK_SIZE , NULL , GENERATOR_DD_PRIORITY , &PeriodicTaskCreatorHandle3);
-    xTaskCreate( AperiodicTaskCreator , "AperiodicCreator" 	, configMINIMAL_STACK_SIZE , NULL , GENERATOR_DD_PRIORITY , &AperiodicTaskCreatorHandle);
+    //xTaskCreate( AperiodicTaskCreator , "AperiodicCreator" 	, configMINIMAL_STACK_SIZE , NULL , GENERATOR_DD_PRIORITY , &AperiodicTaskCreatorHandle);
 
     vTaskStartScheduler();
 
